@@ -7,15 +7,10 @@ Plugin 'vim-scripts/Conque-GDB'
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'https://github.com/jiangmiao/auto-pairs.git'
 Plugin 'tpope/vim-fugitive'
-Plugin 'git://git.wincent.com/command-t.git'
-Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'https://github.com/scrooloose/nerdtree.git'
-Plugin 'https://github.com/Lokaltog/vim-powerline.git'
 Plugin 'Chiel92/vim-autoformat'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'scrooloose/nerdcommenter'
-Plugin 'https://github.com/tomasr/molokai.git'
-Plugin 'https://github.com/fholgado/minibufexpl.vim.git'
 call vundle#end()            " required
 filetype plugin indent on    " required
 "
@@ -59,6 +54,7 @@ set number
 set ts=4
 set path+=/usr/local/include/
 set autoindent
+set expandtab
 
 "vim-powerline plugin
 set laststatus=2
